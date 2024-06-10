@@ -1,21 +1,25 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
-import About from "./components/About";
-import Footer from "./components/Footer";
+import './App.css'
+import Hero from './components/Hero'
+import Navbar from './components/Navbar'
+import Portfolio from './components/Portfolio'
+import About from './components/About'
+import Footer from './components/Footer'
+import Contact from './components/Contact'
+import { BrowserRouter as Router } from 'react-router-dom'
+
 
 function App() {
+
   return (
-    <>
+    <Router>
       <Navbar />
-      <section id="hero"><Hero /></section>
-      <section id="portfolio"><Portfolio /></section>
-      <section id="about"><About /></section>
-      <section id="contact"><Contact /></section>
+      <Hero />
+      <Portfolio />
+      <Contact />
+      <About />
       <Footer />
-    </>
-  );
+    </Router>
+  )
 }
 
-export default App;
+export default App
