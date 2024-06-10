@@ -6,6 +6,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: ['react-icons/ai'],
+      external: ['react-type-animation'],
     },
   },
 });
