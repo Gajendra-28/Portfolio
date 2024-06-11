@@ -23,7 +23,7 @@ const About = () => {
           <DiHtml5 className="text-orange-600" />
           <DiCss3 className="text-blue-600" />
           <DiBootstrap className="text-purple-600" />
-          <DiJavascript1 className="text-yello-600" />
+          <DiJavascript1 className="text-yellow-600" />
           <DiReact className="text-blue-500" />
         </div>
       </div>

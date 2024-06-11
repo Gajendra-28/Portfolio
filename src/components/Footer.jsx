@@ -10,9 +10,9 @@ const Footer = () => {
       <div className='space-y-4'>
         <h3 className='md:text-xl text-gray-200 font-semibold'>Gajendra Nagre</h3>
         <div className='flex flex-row gap-6 text-gray-400 text-4xl'>
-        <a href="https://github.com/Gajendra-28" target='_blank' className="hover:scale-110 trasition-transform duration-300"> <AiFillGithub/></a>
-        <a href="https://www.linkedin.com/in/gajendra-nagre-338947153" target='_blank' className="hover:scale-110 trasition-transform duration-300"> <AiFillLinkedin/></a>
-        <a href="https://www.instagram.com/spoiled_brat.28?igsh=MzNlNGNkZWQ4Mg==" target='_blank' className="hover:scale-110 trasition-transform duration-300"><AiFillInstagram/></a>
+        <a href="https://github.com/Gajendra-28" target='_blank' className="hover:scale-110 trasition-transform duration-300"> <AiFillGithub className="text-2xl text-gray-300 hover:text-red-600 transition duration-300"/></a>
+        <a href="https://www.linkedin.com/in/gajendra-nagre-338947153" target='_blank' className="hover:scale-110 trasition-transform duration-300"> <AiFillLinkedin className="text-2xl text-gray-300 hover:text-red-600 transition duration-300"/></a>
+        <a href="https://www.instagram.com/spoiled_brat.28?igsh=MzNlNGNkZWQ4Mg==" target='_blank' className="hover:scale-110 trasition-transform duration-300"><AiFillInstagram className="text-2xl text-gray-300 hover:text-red-600 transition duration-300"/></a>
         
         </div>
 
