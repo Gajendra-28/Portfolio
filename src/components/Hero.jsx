@@ -41,9 +41,12 @@ const Hero = () => {
                         />
                     </p>
                     <p className="text-xl md:text-3xl font-semibold text-gray-400">with a 6 months experience</p>
-                    <a href='https://docs.google.com/document/d/16uaGMTvF2-DDBtlfU8LiwqIB_DXkfw3U/edit?usp=drivesdk&ouid=103334399933115650015&rtpof=true&sd=true' target="_blank" rel="noopener noreferrer">
-                        <button className="mt-4 px-2 py-2 text-sm md:text-lg font-bold text-white bg-primary-color rounded-xl">Open CV</button>
+                    <button className="mt-6 px-2 py-2 text-sm md:text-lg font-bold text-white bg-primary-color rounded-xl"> 
+                    <a href='../assets/Gajendra Nagre Resume_9850077683.pdf' download="Gajendra's Resume.pdf" title='Download Resume' rel="noopener noreferrer">
+                            Download CV
+                        {/* <button className="mt-4 px-2 py-2 text-sm md:text-lg font-bold text-white bg-primary-color rounded-xl">Open CV</button> */}
                     </a>
+                    </button>
                 </div>
             </div>
 
